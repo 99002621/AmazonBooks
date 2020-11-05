@@ -23,7 +23,8 @@ TEST(AmbookDB,listBooks){
     db.addBook("Abc1","Google","Techno","2021","4.5","2000$");
     db.addBook("Abc2","Google","Techno","2021","4.5","2000$");
 
-    db.importDataset("../bookDataset.csv");
+    db.importDataset("bookDataset.csv");
+
     ASSERT_EQ(true,db.listBooks(4.8));
 }
 
