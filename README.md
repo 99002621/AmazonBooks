@@ -4,6 +4,7 @@
 
 ![Unit test](https://github.com/99002621/AmazonBooks/workflows/Unit%20test/badge.svg)
 ![cppcheck-action](https://github.com/99002621/AmazonBooks/workflows/cppcheck-action/badge.svg?branch=master)
+![Valgrind](https://github.com/99002621/AmazonBooks/workflows/Valgrind/badge.svg?branch=master)
 
 ##  Design
 1. Book Base class
